@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: url(./images/pexels-pixabay-270360.jpg);
+    background-size: cover;
+    height: 1000px;
+
+}
+   
+    
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+span{
+    color: red;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color:red;
+}
+
+.btn{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+   
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+
+h1{
+    color:white;
+    margin: 20px 0 20px;
+    font-size: 70px;
+}
+
+h3{
+    color:rgb(136, 132, 132);
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+h4{
+    color:rgb(199, 49, 49);
+}
+
+.news form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+
+.news form input:first-child{
+    width: 100%;
+    display: inline-block;
+    padding: 14px 130px 14px 15px;
+}
